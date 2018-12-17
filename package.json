@@ -1,0 +1,33 @@
+{
+  "name": "ideate-cms",
+  "version": "1.0.0",
+  "description": "NodeJS based content management system. Build websites quickly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvishakhp/ideate-cms.git"
+  },
+  "keywords": [
+    "cms",
+    "express",
+    "easy",
+    "website"
+  ],
+  "author": "Vishakh Warrier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vvishakhp/ideate-cms/issues"
+  },
+  "homepage": "https://github.com/vvishakhp/ideate-cms#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.12.15"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.4"
+  }
+}
