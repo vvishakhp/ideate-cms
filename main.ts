@@ -1,11 +1,7 @@
-import express = require('express');
-import { AddressInfo } from 'net';
-import { Router } from 'express';
+import { Application } from "./application/Application";
+import { AppConfig } from "./models/appConfig";
 
-let app = express();
+let conf = new AppConfig();
+conf.dbFile = "test";
 
-app.use('/admin', express.static('admin'));
-
-let server = app.listen(process.env.PORT || 3000, () => {
-    console.log("Server started listening on : " + (server.address() as AddressInfo).port);
-});
+let app = new Application(conf);
