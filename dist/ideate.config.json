@@ -1,0 +1,7 @@
+{
+  "port": 8080,
+  "dataFolder": "C:\\Users\\vvish/ideatecms",
+  "runInitialSetup": true,
+  "serveAdminPage": true,
+  "adminPagePath": "/admin"
+}
